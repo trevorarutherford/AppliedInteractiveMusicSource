@@ -1,0 +1,378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36ddd8e8ba3643a48de66ba7ee0d97a, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6691abbae4398a45a183a8fb496ec357
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 6691abbae4398a45a183a8fb496ec357
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 75f724a52715d9449bcf2e8202bf4dfe
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 75f724a52715d9449bcf2e8202bf4dfe
+    GuidInternal: 
+    m_lastTime: -8585618140394775808
+    List:
+    - name: Arpeggios
+      guid: b1213c5b94e8704ab7053b9ff5c1f265
+      id: 1322019458
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f724a52715d9449bcf2e8202bf4dfe
+      - ElementName: Arpeggios
+        ObjectType: 2
+        guid: b1213c5b94e8704ab7053b9ff5c1f265
+      Path: Master-Mixer Hierarchy/Default Work Unit/Arpeggios
+    - name: Hihats_Shakers
+      guid: a968f819b7b7a8418da4581c37845d91
+      id: 112117196
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f724a52715d9449bcf2e8202bf4dfe
+      - ElementName: Hihats_Shakers
+        ObjectType: 2
+        guid: a968f819b7b7a8418da4581c37845d91
+      Path: Master-Mixer Hierarchy/Default Work Unit/Hihats_Shakers
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f724a52715d9449bcf2e8202bf4dfe
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Melody
+      guid: f607ff406795b2458a6f999db54a67d3
+      id: 1040548709
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f724a52715d9449bcf2e8202bf4dfe
+      - ElementName: Melody
+        ObjectType: 2
+        guid: f607ff406795b2458a6f999db54a67d3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Melody
+    - name: Wind
+      guid: ee6312701fd7fe4783f86eb03e759b7a
+      id: 1537061107
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 75f724a52715d9449bcf2e8202bf4dfe
+      - ElementName: Wind
+        ObjectType: 2
+        guid: ee6312701fd7fe4783f86eb03e759b7a
+      Path: Master-Mixer Hierarchy/Default Work Unit/Wind
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e754b4ae9cd16146b3d0e9c9c98b161d
+    ParentPath: SoundBanks/Default Work Unit
+    guid: e754b4ae9cd16146b3d0e9c9c98b161d
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List:
+    - name: Music
+      guid: e7f4138286d20544a9aeae1023dc0c9e
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e754b4ae9cd16146b3d0e9c9c98b161d
+      - ElementName: Music
+        ObjectType: 7
+        guid: e7f4138286d20544a9aeae1023dc0c9e
+      Path: SoundBanks/Default Work Unit/Music
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 93b6ef4f1ce75446b2190b22cd4ddaf4
+    ParentPath: Events/Default Work Unit
+    guid: 93b6ef4f1ce75446b2190b22cd4ddaf4
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List:
+    - name: Enter_Quad
+      guid: 1912131186900d42b07e9af7828b2cf3
+      id: 4273570465
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 93b6ef4f1ce75446b2190b22cd4ddaf4
+      - ElementName: Enter_Quad
+        ObjectType: 3
+        guid: 1912131186900d42b07e9af7828b2cf3
+      Path: Events/Default Work Unit/Enter_Quad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Exit_Quad
+      guid: 35c250be9ddbf04bb0b8fbb62473a336
+      id: 4030061021
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 93b6ef4f1ce75446b2190b22cd4ddaf4
+      - ElementName: Exit_Quad
+        ObjectType: 3
+        guid: 35c250be9ddbf04bb0b8fbb62473a336
+      Path: Events/Default Work Unit/Exit_Quad
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ec3e4fc72ad46443a9e85ceb4893a4c8
+    ParentPath: Game Parameters/Default Work Unit
+    guid: ec3e4fc72ad46443a9e85ceb4893a4c8
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List:
+    - name: Quad_North_South
+      guid: 38b1588cb2844845a5ce11371a23d26d
+      id: 1999582490
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ec3e4fc72ad46443a9e85ceb4893a4c8
+      - ElementName: Quad_North_South
+        ObjectType: 13
+        guid: 38b1588cb2844845a5ce11371a23d26d
+      Path: Game Parameters/Default Work Unit/Quad_North_South
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5d03c05030df7841b31726799e6f5eb7
+    ParentPath: States/Default Work Unit
+    guid: 5d03c05030df7841b31726799e6f5eb7
+    GuidInternal: 
+    m_lastTime: -8585618156534775808
+    List:
+    - name: Percussion
+      guid: 62cae071a2d2e642afdfbef4c9ad828f
+      id: 3850444438
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5d03c05030df7841b31726799e6f5eb7
+      - ElementName: Percussion
+        ObjectType: 9
+        guid: 62cae071a2d2e642afdfbef4c9ad828f
+      Path: States/Default Work Unit/Percussion
+      values:
+      - name: None
+        guid: 55a81e4a3b18bc41936745ffb2f9f873
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: None
+          ObjectType: 8
+          guid: 55a81e4a3b18bc41936745ffb2f9f873
+      - name: NoPerc
+        guid: 1479c6e01c6fd34daf6ffa9a855b545b
+        id: 1425369320
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: NoPerc
+          ObjectType: 8
+          guid: 1479c6e01c6fd34daf6ffa9a855b545b
+      - name: Perc1
+        guid: 049e94c74dd25a4b929ed7b392628a79
+        id: 240420518
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: Perc1
+          ObjectType: 8
+          guid: 049e94c74dd25a4b929ed7b392628a79
+      - name: Perc2
+        guid: ce3cc576079579469a9d5304e0b84fd2
+        id: 240420517
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: Perc2
+          ObjectType: 8
+          guid: ce3cc576079579469a9d5304e0b84fd2
+      - name: Perc3
+        guid: b4827ff91c478e4d90c13deec0b40ec0
+        id: 240420516
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: Perc3
+          ObjectType: 8
+          guid: b4827ff91c478e4d90c13deec0b40ec0
+      - name: Perc4
+        guid: 5126649eeeecf84d91e3b97af230f4c7
+        id: 240420515
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5d03c05030df7841b31726799e6f5eb7
+        - ElementName: Percussion
+          ObjectType: 9
+          guid: 62cae071a2d2e642afdfbef4c9ad828f
+        - ElementName: Perc4
+          ObjectType: 8
+          guid: 5126649eeeecf84d91e3b97af230f4c7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dc83b776478ee249bf69f181b63bd16e
+    ParentPath: Switches/Default Work Unit
+    guid: dc83b776478ee249bf69f181b63bd16e
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9e7002a46b7e604d9bde54e8f1720bcc
+    ParentPath: Triggers/Default Work Unit
+    guid: 9e7002a46b7e604d9bde54e8f1720bcc
+    GuidInternal: 
+    m_lastTime: -8585632715254775808
+    List: []
+  ExpandedFileSystemItemIds: 02000000030000000400000008000000090000000a0000001300000014000000
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 
