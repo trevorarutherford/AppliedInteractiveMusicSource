@@ -1,5 +1,6 @@
 #Applied Interactive Music
 
+## About
 Applied Interactive Music is an Android app that plays dynamic music based on the user's GPS location.
 The concept was inspired by interactive video game music which responds to a player's actions and movement
 in the virtual game environment.
@@ -16,14 +17,12 @@ For this prototype, I limited the scope to a single geographic region: The Unive
 and a specific piece of interactive music that I wrote inspired by that region. However, the app could easily be
 extended in the future to play interactive compositions inspired by other real world locations.
 
-<!-- start:code block -->
+## Demo Video
 
-# Disclaimer
-This app requires a complex setup to run as it has Wwise and Unity components and requires the user
-to be on-site at the University of Victoria.
+https://www.youtube.com/watch?v=Jip8hhLRCpU&t=1238s
 
-The following YouTube video includes a walkthrough of the design, musical components, Wwise project,
-Unity project, and C# scripts, followed by a demo of the product. For those curious, I recommend this
-video as an alternative to cloning the repo and trying to run the Unity project yourself.
-
-<!-- end:code block -->
+This video includes a walkthrough of the design, musical components, Wwise project, Unity project, and
+C# scripts, followed by a demo of the product. For those curious, I recommend this video as an alternative
+to cloning the repo and trying to run the Unity project yourself. The reason for this is that the app
+requires a complex Wwise and Unity configuration and requires the user to be on-site at the University of
+Victoria.
